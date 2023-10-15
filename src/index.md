@@ -25,7 +25,9 @@ I am a full-stack software developer specialised in sustainable development. I h
 - WordPress tech lead for Ylläs Ski Resort (2021)
 - HubSpot website development for a tech spin-off (2021)
 
-I am currently looking for software projects related to environmental or social sustainability.
+I am currently working as a consultant at [Columbia Road](https://www.columbiaroad.com/).
+
+I am interested in hearing about potential software projects related to environmental or social sustainability. If you have one in mind, please don't hesitate to contact me!
 
 ## Contact
 
