@@ -62,3 +62,9 @@ hr {
   border-top: solid 2px var(--lightgray);
   margin: 5vh 0;
 }
+
+blockquote {
+  margin: 0;
+  padding: 0 2rem;
+  border-left: 2px solid var(--darkgray);
+}
