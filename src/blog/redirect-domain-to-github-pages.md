@@ -1,7 +1,7 @@
 ---
 title: How to redirect a secondary domain to GitHub Pages
 description: I redirected a secondary apex domain to my primary GitHub Pages domain. This is how.
-date: 2023-10-16
+date: 2023-10-15
 tags:
   - coding
 draft: true

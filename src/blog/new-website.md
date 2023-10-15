@@ -4,6 +4,7 @@ description: I created a new website for me with Deno, Lume and GitHub Pages.
 date: 2023-10-15
 tags:
   - coding
+order: 1
 ---
 
 11 years ago, I was an aspiring musician that needed a website. I went to Google and found a step-by-step guide for creating a WordPress site. The guide was apparently written by an Australian person because it recommended a hosting provider that was based in Australia. I bought the hosting plan and registered joonasnuutinen.com as my domain.

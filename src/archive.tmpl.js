@@ -2,7 +2,7 @@ export const layout = "layouts/archive.njk";
 export const title = "Blog";
 
 export default function* ({ search, paginate }) {
-  const posts = search.pages("type=posts", "date=desc");
+  const posts = search.pages("type=posts", "order=desc date=desc");
 
   for (
     const data of paginate(posts, { url, size: 10 })
