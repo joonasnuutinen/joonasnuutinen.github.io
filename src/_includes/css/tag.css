@@ -14,3 +14,11 @@
     font-size: 1rem;
   }
 }
+
+.tag--coding {
+  background-color: darkmagenta;
+}
+
+.tag--cases {
+  background-color: darkgoldenrod;
+}

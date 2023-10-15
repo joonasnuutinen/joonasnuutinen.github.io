@@ -8,7 +8,7 @@ bodyClass: body-post
 
     <nav class="post-tags">
     {% for tag in tags %}
-      <a href="/tags/{{ tag }}/" class="tag">{{ tag }}</a>
+      <a href="/tags/{{ tag }}/" class="tag tag--{{ tag }}">{{ tag }}</a>
     {% endfor %}
     </nav>
 
