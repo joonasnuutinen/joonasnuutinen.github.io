@@ -6,11 +6,11 @@ menu:
   order: 0
 ---
 
-Coding for the planet 🌍
+## Coding for the planet 🌍
 
 I am a full-stack software developer specialised in sustainable development. I have 11+ years of experience working with web technologies, ranging from frontend to backend to devops and everything in between.
 
-Recent experience
+## Recent experience
 
 - TypeScript backend development for TalTech (2023)
 - JavaScript full-stack development for a real estate company (2023)
@@ -27,4 +27,6 @@ Recent experience
 
 I am currently looking for software projects related to environmental or social sustainability.
 
-Contact
+## Contact
+
+[joonas@joonasnuutinen.com](mailto:joonas@joonasnuutinen.com)
