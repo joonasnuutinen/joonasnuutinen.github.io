@@ -32,3 +32,7 @@ I am interested in hearing about potential software projects related to environm
 ## Contact
 
 [joonas@joonasnuutinen.com](mailto:joonas@joonasnuutinen.com)
+
+[LinkedIn](https://www.linkedin.com/in/joonasn/)
+
+[GitHub](https://github.com/joonasnuutinen)
