@@ -2,7 +2,12 @@ name: Publish on GitHub Pages
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
@@ -10,7 +15,7 @@ jobs:
 
     steps:
       - name: Clone repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup Deno environment
         uses: denoland/setup-deno@v1
@@ -18,12 +23,16 @@ jobs:
           deno-version: v1.x
 
       - name: Build site
-        run: |
-          deno task build --location=https://lumeland.github.io/base-blog/
+        run: deno task build
 
-      - name: Deploy
-        uses: crazy-max/ghaction-github-pages@v2.0.1
+      - name: Setup pages
+        uses: actions/configure-pages@v2
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          build_dir: _site
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          path: '_site'
+      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
