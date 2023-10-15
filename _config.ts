@@ -10,11 +10,11 @@ import sitemap from "lume/plugins/sitemap.ts";
 import feed from "lume/plugins/feed.ts";
 
 const site = lume({
+  src: "./src",
   location: new URL("https://joonasnuutinen.com/"),
 });
 
 site
-  .ignore("README.md")
   .copy("img")
   .use(postcss())
   .use(date())
