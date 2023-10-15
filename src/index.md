@@ -23,7 +23,7 @@ I am a full-stack software developer specialised in sustainable development. I h
 - WordPress plugin development for an online retailer (2022)
 - Headless website tech lead for an online retailer (2022)
 - WordPress tech lead for Ylläs Ski Resort (2021)
-- HubSpot website development for a tech spin-off (2021)
+- [HubSpot website development for a tech spin-off (2021)](/blog/hubspot-website-development-for-tech-spin-off-2021)
 
 I am currently working as a consultant at [Columbia Road](https://www.columbiaroad.com/).
 
