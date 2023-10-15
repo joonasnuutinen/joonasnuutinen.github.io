@@ -2,9 +2,12 @@
   --red: #c04;
   --lightgray: #e6e6e6;
   --darkgray: #0d1117;
-  --blue: #135;
+  --blue: #0000dc;
   --white: #fff;
   --font-family: -apple-system, system-ui, sans-serif;
+  --max-width: 37rem;
+  --padding-x: 1rem;
+  --line-height: 1.5;
 }
 
 html,
@@ -14,23 +17,13 @@ body {
   font-family: var(--font-family);
   color: var(--darkgray);
   background-color: var(--white);
-
-  /** Pagefind variables */
-  --pagefind-ui-scale: .8;
-  --pagefind-ui-primary: var(--darkgray);
-  --pagefind-ui-text: var(--darkgray);
-  --pagefind-ui-background: var(--white);
-  --pagefind-ui-border: var(--lightgray);
-  --pagefind-ui-tag: var(--lightgray);
-  --pagefind-ui-border-width: 1px;
-  --pagefind-ui-border-radius: 6px;
-  --pagefind-ui-image-border-radius: 6px;
-  --pagefind-ui-image-box-ratio: 3 / 2;
-  --pagefind-ui-font: var(--font-family);
 }
 
 main {
-  padding: 5vh 5vw;
+  margin: 0 auto;
+  padding: var(--padding-x);
+  max-width: var(--max-width);
+  line-height: var(--line-height);
 
   & > :first-child {
     margin-top: 0;

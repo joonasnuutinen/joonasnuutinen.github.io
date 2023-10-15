@@ -2,17 +2,28 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 1rem 1rem 1rem 2rem;
+  margin: 0 auto;
+  padding: var(--padding-x);
+  max-width: var(--max-width);
   column-gap: 2rem;
   row-gap: 1rem;
 
   & a {
-    display: block;
+    color: var(--darkgray);
+    text-decoration: none;
+  } 
+}
 
-    &:not(:hover) {
-      text-decoration: none;
-    }
-  }
+.navbar-home {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar-icon {
+  --size: 3rem;
+  width: var(--size);
+  height: var(--size);
 }
 
 .navbar-links {
