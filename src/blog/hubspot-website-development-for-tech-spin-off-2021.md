@@ -1,10 +1,9 @@
 ---
 title: HubSpot website development for a tech spin-off (2021)
 description: I developed a HubSpot website for a tech spin-off.
-date: 2023-10-15
+date: 2023-10-15T15:00
 tags:
   - cases
-order: 2
 ---
 
 This was my first bigger client project at [Columbia Road](https://www.columbiaroad.com/) and also my first HubSpot CMS project.

@@ -1,10 +1,9 @@
 ---
 title: How to redirect a secondary domain to GitHub Pages
 description: I redirected a secondary apex domain to my primary GitHub Pages domain. This is how.
-date: 2023-10-15
+date: 2023-10-15T22:19
 tags:
   - coding
-draft: true
 ---
 
 I have registered two domains for myself: joonasnuutinen.com and joonasnuutinen.fi. The .com domain is the primary one and the .fi domain is a secondary one. As I recently [switched from WordPress to GitHub Pages](/blog/new-website), I had to come up with a new way to redirect traffic. Earlier my hosting provider supported secondary domains that redirect to the primary domain. In essence, I would just need to direct the secondary domain to my hosting provider's server and they would take care of it. However, GitHub Pages doesn't seem to support more than one domain.

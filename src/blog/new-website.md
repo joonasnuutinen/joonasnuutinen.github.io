@@ -1,7 +1,7 @@
 ---
 title: New website
 description: I created a new website for me with Deno, Lume and GitHub Pages.
-date: 2023-10-15
+date: 2023-10-15T12:00
 tags:
   - coding
 order: 1
