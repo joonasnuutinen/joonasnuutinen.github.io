@@ -14,7 +14,7 @@ const site = lume({
 });
 
 site
-  .copy("img")
+  .copy("assets", ".")
   .copy("favicon.ico")
   .use(postcss())
   .use(date())
