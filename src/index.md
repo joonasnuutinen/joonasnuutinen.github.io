@@ -20,7 +20,7 @@ I am a full-stack software developer specialised in sustainable development. I h
 - Advisor for an edtech startup (2023)
 - TypeScript frontend development for FAO (2022)
 - TypeScript full-stack development for an online retailer (2022)
-- WordPress plugin development for an online retailer (2022)
+- [WordPress plugin development for an online retailer](/blog/wordpress-plugin-development-for-an-online-retailer-2022) (2022)
 - [Headless website tech lead for an online retailer](/blog/headless-website-tech-lead-for-an-online-retailer) (2022)
 - [WordPress tech lead for Ylläs Ski Resort](/blog/wordpress-tech-lead-for-yllas-ski-resort-2021/) (2021)
 - [HubSpot website development for a tech spin-off](/blog/hubspot-website-development-for-tech-spin-off-2021) (2021)
